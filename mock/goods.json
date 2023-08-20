@@ -1,0 +1,202 @@
+[
+    {
+        "brand": "NEC",
+        "type": "monitor",
+        "model": "E224F",
+        "price": "455",
+        "description": "24 LCD monitor with LED backlight, 1920x1080, USB-C, DisplayPort, HDMI, USB 3.1, 130 mm height adjustable",
+        "image": "https://www.sharpnecdisplays.eu/p/download/v/25241bbce522ffca280e2e096295b0ae/cp/Products/DesktopLCDs/Products/CurrentProducts/E_EA_Series/Shared/Media/E224F-E244F-E274F-E244FL-E274FL/NEC_E224F-E244F-E274F_front_Content.jpg?h=480&pad=true&c=0xffffff&f=jpeg&w=640",
+        "brightness": "250 кд/м.кв.",
+        "category": "monitor"
+    },
+    {
+        "brand": "NEC",
+        "type": "monitor",
+        "model": "EA271U",
+        "price": "456",
+        "description": "27 LCD monitor with LED backlight, 1920x1080, USB-C, DisplayPort, HDMI, USB 3.1, 130 mm height adjustable",
+        "image": "https://www.sharpnecdisplays.eu/p/download/v/ce03427c3dc3bfc2114d600501aafdcb/cp/Products/DesktopLCDs/Products/CurrentProducts/E_EA_Series/EA271U/Media/NEC_EA271U_BK_HO_4KUHD_peacock_1600x1200.jpg?h=480&pad=true&c=0xffffff&f=jpeg&w=640",
+        "brightness": "350 кд/м.кв.",
+        "category": "monitor"
+    },
+    {
+        "brand": "NEC",
+        "type": "monitor",
+        "model": "E172M",
+        "price": "317",
+        "description": "17 LCD monitor with LED backlight, 1920x1080, USB-C, DisplayPort, HDMI, USB 3.1, 130 mm height adjustable",
+        "image": "https://www.sharpnecdisplays.eu/p/download/v/28d9514a7e1df0be3c4a02be79747104/cp/Products/DesktopLCDs/Products/CurrentProducts/E_EA_Series/E172M/Media/ProductPictures/E172M_productshot_front_nec0071.jpg?h=480&pad=true&c=0xffffff&f=jpeg&w=640",
+        "brightness": "250 кд/м.кв.",
+        "category": "monitor"
+    },
+    {
+        "brand": "NEC",
+        "type": "monitor",
+        "model": "E242N",
+        "price": "334",
+        "description": "24 LCD monitor with LED backlight, 1920x1080, USB-C, DisplayPort, HDMI, USB 3.1, 130 mm height adjustable",
+        "image": "https://www.sharpnecdisplays.eu/p/download/v/f0837f67cdc3c38af7a9c0eb1c6b9068/cp/Products/DesktopLCDs/Products/CurrentProducts/E_EA_Series/E242N/Media/NEC_E242N_HO_content.jpg?h=480&pad=true&c=0xffffff&f=jpeg&w=640",
+        "brightness": "250 кд/м.кв.",
+        "category": "monitor"
+    },
+    {
+        "brand": "Optoma",
+        "type": "laser",
+        "model": "ZH406STx",
+        "price": "7 300",
+        "description": "DLP • ЛАЗЕРНЫЙ КОРОТКОФОКУСНЫЙ ( DuraCore, IP6X ) • Full HD (1920 x 1080) / макс. 4K ( 3840 x 2160 / 60 Гц) • 4200 ANSI-Lm • Контрастность 300 000:1 • Проекционный коэффициент TR = 0,5 : 1 • HDMI 2.0 ( HDCP 2.2 ), HDMI 1.4a / MHL, VGA in, VGA out,  LAN (RJ45) ( Управление ), RS232, Video, Audio in x 2, Audio out, Микрофонный вход, USB A (питание 5В/1,5A), Триггер 12В, 3D Sync, MINI USB ( сервис ) • Коррекция Трапеции : АВТО + ручная Вертикальная ±30°, ручная Горизонтальная ±30°; Угловая коррекция • Цифровой ZOOM 0,8 - 2X • DICOM • HDR, HLG • ШУМ 36 / 28 dB ( eco ) • Профессиональный инсталляционный • Режим работы 24/7 • Поворот проектора вокруг оси на 360° и Портретный режим • ЛАЗЕРНЫЙ ИСТОЧНИК  СВЕТА ( DuraCore ) до 30 000 часов • Звук 2 x 10 Вт • 337 x 265 x 123 мм • Вес 5,5 кг ( White )",
+        "image": "https://www.optoma.ru/ContentStorage/Media/16b92663-c020-4344-b74a-a64c388c4297.jpg",
+        "brightness": "4 200 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "laser",
+        "model": "ZU725",
+        "price": "12 300",
+        "description": "DLP • ЛАЗЕРНЫЙ ( DuraCore ) • WUXGA (1920 x 1200) / макс. 4K ( 3840 x 2160, 60 Гц ), HDR, матрица 0,67” DMD • 7800 Lm • Контрастность 3 000 000:1 (динамическая)  • Моторизированный ZOOM 1,6X • Проекционный коэффициент TR = 1,25-2 : 1 • Смещение объектива (SHIFT) : V = ±55, H = ±25 • HDBaseT, HDMI 2.0 ( HDCP 2.2 ), HDMI 1.4a, HDMI OUT, VGA in, LAN (RJ45), RS232, USB A (питание 5В/1,5A) x 2, Audio in, Audio out, RS-232C, +12v Trigger, 3D Sync, Wired IR in • Коррекция Трапеции : Вертикальная ±30°, Горизонтальная ±30°; Угловая коррекция, ГЕОМЕТРИЧЕСКАЯ • Full 3D • HDR, 4K UHD 2160p ( 24/25/60 Гц ) • ШУМ 36 / 34 dB ( eco ) • Профессиональный инсталляционный • Режим работы 24/7 • Поворот проектора вокруг оси на 360° и Портретный режим • ЛАЗЕРНЫЙ ИСТОЧНИК  СВЕТА ( DuraCore ) до 30 000 часов • Звук 2 х 10 Вт • Потребляемая мощность 520 Вт •  Размер : 486 x 176 x 433 мм • Вес 14,0 кг ( Черный ) ",
+        "image": "https://www.optoma.ru/ContentStorage/Media/d8b97387-7985-4058-9cc9-7b6d9a65e8c4.jpg",
+        "brightness": "7 800 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "laser",
+        "model": "ZH606e",
+        "price": "5 343",
+        "description": "DLP • ЛАЗЕРНЫЙ ( IP5X ) • Full HD (1920 x 1080) / макс. 4K ( 3840 x 2160 ), HDR • 6300 ANSI-Lm • Контрастность 300 000:1 (динамическая)  • ZOOM 1,6X • Проекционный коэффицент TR = 1,2-1,92 : 1 • Смещение объектива (SHIFT) : Вертикальное +21% • HDMI 2.0 ( HDCP 2.2 / MHL ), HDMI 1.4a, VGA in, VGA out,  LAN (RJ45), RS232, Микрофонный вход, USB A (питание 5В/1A), Video, Audio in/out • Коррекция Трапеции : Вертикальная ±30°, Горизонтальная ±30°; Угловая коррекция • Full 3D • HDR - Поддержка цветового стандарта Rec.2020 , 4K UHD 2160p ( 24/25/60 Гц ) • ШУМ 32 / 28 dB ( eco ) • Профессиональный инсталляционный • Режим работы 24/7 • Поворот проектора вокруг оси на 360° и Портретный режим • ЛАЗЕРНЫЙ ИСТОЧНИК  СВЕТА ( DuraCore ) до 30 000 часов • Звук 2 х 10 Вт  • 374 x 302 x 117 мм, вес 5,6 кг ( White )",
+        "image": "https://www.optoma.ru/ContentStorage/Media/2d235e33-79d9-413a-a68b-7fbd65e7101b.jpg",
+        "brightness": "6 300 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "lamp",
+        "model": "W400LVe",
+        "price": "890",
+        "description": "DLP • Full 3D • WXGA (1280x800) • 4000 Lm • Контрастность 25 000:1 • Ручной  ZOOM 1,1X • TR=1,55-1,73:1 • HDMI ( V 1.4a ), VGA in, VGA out, video, audio in, audio out, USB A (  Питание 5В / 1A для Smart устройств ), RS232 • Коррекция трапеции  V ±40° (ручная) • Лампа 6000 - 10000 - 15000 ч. • Звук - 10 Вт • ШУМ 29/27 dB (eco) • 316 x 244 x 108  мм • вес 3,0 кг",
+        "image": "https://www.optoma.ru/ContentStorage/Media/044ff4fe-de94-4dab-a2d8-2355aeddca67.jpg",
+        "brightness": "4 000 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "lamp",
+        "model": "EH401",
+        "price": "2 100",
+        "description": "DLP • Full 3D • Full HD (1920x1080) / макс. 4K UHD ( 3840 x 2160 ) • 4000 Lm • Контрастность 22 000:1 •  Ручной  ZOOM 1,1X • TR=1,5-1,66 : 1 • HDMI 2.0 x 1, HDMI V 1.4a x 1, USB A ( Питание 5В / 1,5A ), audio out • Коррекция трапеции  V ±40° (ручная) • HDR • Срок служьы лампы 4000-15000 ч. ( 240 Вт ) • Звук 3 Вт • ШУМ 29/27 dB (eco) • Потребляема мощность 290 / 210 Вт (eco) • Габариты 316 x 244 x 106 мм • Вес 2,88 кг",
+        "image": "https://www.optoma.ru/ContentStorage/Media/47516954-41ac-44c7-8d80-1538d3dc1277.jpg",
+        "brightness": "4 000 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "laser",
+        "model": "ZH450",
+        "price": "3 200",
+        "description": "DLP • Full 3D • ЛАЗЕРНЫЙ ( DuraCore ) • Full HD (1920 x 1080) / макс. 4K ( 4096 x 2160, 60 Гц ) • 4500 Lm • Контрастность 300 000:1 / 2 000 000 (динамическая) • ZOOM 1,6X • Проекционное отношение TR = 1,4-2,24 : 1 • HDMI 1.4a x 2, LAN ( RJ45 ), RS232, Audio out, USB A (питание 5В/1,5A), Audio out • Ручная Коррекция трапеции : Вертикальная V= ±30°, Горизонтальная H= ±30° • HDR • ШУМ 34 / 32 dB ( eco ) • Режим работы 24/7 • IP6x - полная защита от пыли • Поворот проектора вокруг оси на 360° и Портретный режим • ЛАЗЕРНЫЙ ИСТОЧНИК  СВЕТА ( DuraCore ) до 30 000 часов • Потребляемая мощность : 173 Вт (max) / 119 (eco) • Звук 15 Вт • 274 x 216 x 114 мм • Вес 3,0 кг ( White )",
+        "image": "https://www.optoma.ru/ContentStorage/Media/5b4284af-f890-44fc-81b0-94d205fbc962.jpg",
+        "brightness": "4 500 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "lamp",
+        "model": "HD29i",
+        "price": "1 130",
+        "description": "DLP • Full 3D • Full HD (1920x1080) / макс. 4K UHD ( 3840 x 2160 ) • 4000 Lm • Контрастность 50 000:1 •  Ручной  ZOOM 1,1X • TR=1,47-1,62 : 1 • HDMI 2.0 x 1, HDMI V 1.4a x 1, USB A ( Питание 5В / 1,5A ), audio out • Коррекция трапеции  V ±40° (ручная) • Input lag - 8,4 мс ( Full HD, 120 Гц ) • HDR • Срок служьы лампы 4000-15000 ч. ( 240 Вт ) • Звук 3 Вт • ШУМ 29/27 dB (eco) • Потребляема мощность 282 / 204 Вт (eco) • Габариты 316 x 244 x 108 мм • Вес 3,29 кг",
+        "image": "https://www.optoma.ru/ContentStorage/Media/90e6a4d1-d1d7-4399-b901-b6a81436f712.jpg",
+        "brightness": "4 000 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Optoma",
+        "type": "lamp",
+        "model": "W340UST",
+        "price": "2 560",
+        "description": "DLP • Full 3D • Full HD (1920x1080) / макс. 4K UHD ( 3840 x 2160 ) • 4000 Lm • Контрастность 50 000:1 •  Ручной  ZOOM 1,1X • TR=1,47-1,62 : 1 • HDMI 2.0 x 1, HDMI V 1.4a x 1, USB A ( Питание 5В / 1,5A ), audio out • Коррекция трапеции  V ±40° (ручная) • Input lag - 8,4 мс ( Full HD, 120 Гц ) • HDR • Срок служьы лампы 4000-15000 ч. ( 240 Вт ) • Звук 3 Вт • ШУМ 29/27 dB (eco) • Потребляема мощность 282 / 204 Вт (eco) • Габариты 316 x 244 x 108 мм • Вес 3,29 кг",
+        "image": "https://www.optoma.ru/ContentStorage/Media/825fa53e-ca5f-4d64-94e9-75cba355980a.jpg",
+        "brightness": "4 000 Ansi",
+        "category": "projectors"
+    },
+    {
+        "brand": "Lumien",
+        "type": "screen",
+        "model": "Lumien Cinema Home 148x251 см",
+        "price": "1 480",
+        "description": "Экран Lumien Cinema Home 164x280 см (раб.область 148х264 см, 119, алюминевая рама, MW ",
+        "image": "https://www.lumien.ru/upload/iblock/386/cz008d6xrimbxmw2p51rftejkypulk3a/Cinema_Home_798%D1%85518.png",
+        "brightness": "0",
+        "category": "screen"
+    },
+    {
+        "brand": "Lumien",
+        "type": "screen",
+        "model": "Lumien Master Control 274x366 см",
+        "price": "778",
+        "description": "Экран с электроприводом Lumien Eco Control 183x244 см (раб. область 175x236 см) MW, 4:3",
+        "image": "https://www.lumien.ru/upload/iblock/e5b/lw8apq9ppkndijmehjuv6e08ar0juyao/xMaster-Business-Control2.png.pagespeed.ic.RQMPAwk_0Y.webp",
+        "brightness": "0",
+        "category": "screen"
+    },
+    {
+        "brand": "Lumien",
+        "type": "screen",
+        "model": "Lumien Cinema Home 164x280 см",
+        "price": "657",
+        "description": "Экран с электроприводом Lumien Eco Control 183x244 см (раб. область 175x236 см) MW, 4:3",
+        "image": "https://www.lumien.ru/upload/iblock/712/hp0rtk67pe32o4d4bh1nz3y01x3pmrqa/Master-Business-Control_798%D1%85518.png",
+        "brightness": "0",
+        "category": "screen"
+    },
+    {
+        "brand": "Lumien",
+        "type": "screen",
+        "model": "Lumien Eco Control 203x203 см",
+        "price": "508",
+        "description": "Экран с электроприводом Lumien Eco Control 183x244 см (раб. область 175x236 см) MW, 4:3",
+        "image": "https://www.lumien.ru/upload/iblock/33c/rerhlkq5lzc2fxpn6co2llqcffpobvjl/Cinema-Tensioned-Control_798%D1%85518.png",
+        "brightness": "0",
+        "category": "screen"
+    },
+    {
+        "brand": "NEC",
+        "type": "videowall",
+        "model": "UN552S",
+        "price": "4 200",
+        "description": "55, 1920x1080 (Full HD), IPS, Direct LED, 500 cd/m², Контрастность 1100 : 1 ( Динамическая 50 000 : 1 ), Время отклика 8 мс, 1,8 мм,  24/7, Размер 1212.2 x 105.4 x 683 мм, Вес 27 кг, Настенное крепление в комплекте",
+        "image": "https://www.sharpnecdisplays.eu/p/download/v/5a1cde5c94b19c1ec11bdb37ab320e48/cp/Products/LargeFormatDisplays/Products/CurrentProducts/XUN-Series/Shared/Media/UN552S-UN552VS-UN552-UN552V/NEC_UN552S_UN552VS_HO_Port_1600x1200.jpg?h=480&pad=true&c=0xffffff&f=jpeg&w=640",
+        "brightness": "700 кд/м.кв.",
+        "category": "videowall"
+    },
+    {
+        "brand": "Vestel",
+        "type": "videowall",
+        "model": "XY55B/2H",
+        "price": "3 790",
+        "description": "55, 1920x1080 (Full HD), IPS, Direct LED, 500 cd/m², Контрастность 1100 : 1 ( Динамическая 50 000 : 1 ), Время отклика 8 мс, 1,8 мм,  24/7, Размер 1212.2 x 105.4 x 683 мм, Вес 27 кг, Настенное крепление в комплекте",
+        "image": "https://www.vestelvisualsolutions.com/storage/products/image/m/198-1-wy55b-2h-56664725889.jpg",
+        "brightness": "500 кд/м.кв.",
+        "category": "videowall"
+    },
+    {
+        "brand": "NEC",
+        "type": "videowall",
+        "model": "UN552",
+        "price": "4 500",
+        "description": "55, 1920x1080 (Full HD), IPS, Direct LED, 500 cd/m², Контрастность 1100 : 1 ( Динамическая 50 000 : 1 ), Время отклика 8 мс, 1,8 мм,  24/7, Размер 1212.2 x 105.4 x 683 мм, Вес 27 кг, Настенное крепление в комплекте",
+        "image": "https://www.sharpnecdisplays.eu/p/download/v/7c3672423a9dfb7e9408d925527f722a/cp/Products/LargeFormatDisplays/Products/CurrentProducts/XUN-Series/Shared/Media/UN552S-UN552VS-UN552-UN552V/NEC_UN552S-VS_HO_blank_1600x1200.jpg?h=480&pad=true&c=0xffffff&f=jpeg&w=640",
+        "brightness": "700 кд/м.кв.",
+        "category": "videowall"
+    },
+    {
+        "brand": "Vestel",
+        "type": "videowall",
+        "model": "WW55B/2HB",
+        "price": "3 500",
+        "description": "55, 1920x1080 (Full HD), IPS, Direct LED, 500 cd/m², Контрастность 1100 : 1 ( Динамическая 50 000 : 1 ), Время отклика 8 мс, 1,8 мм,  24/7, Размер 1212.2 x 105.4 x 683 мм, Вес 27 кг, Настенное крепление в комплекте",
+        "image": "https://www.vestelvisualsolutions.com/storage/products/image/s/210-1-ww55b-2hb-56670065427.jpg",
+        "brightness": "500 кд/м.кв.",
+        "category": "videowall"
+    }
+]
