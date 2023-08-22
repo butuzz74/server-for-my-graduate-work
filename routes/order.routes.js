@@ -19,36 +19,38 @@ router.post("/", auth, async (req, res) => {
 });
 router.get("/:userId", async (req, res) => {
     try {
-        const { userId } = req.params;
-        const list = await Order.find({ userId: userId });
-        
-        const lll = await kkkk(list)
-                
-        async function kkkk(arr){
+        const { userId } = req.params;        
+        const list = await Order.find({ userId: userId });                
+        const goodsList = await getGoodForOrderList(list);         
+
+        async function getGoodForOrderList(arr) {
             return Promise.all(
-                arr.map( async el => {
+                arr.map(async (el) => {
                     return Promise.all(
                         el.content.map(async (ul) => {
-                            try {
-                                const a = await Good.findById(ul._id)
-                                // return { amount: ul.amount, good: a, totalPriceOrder: el.totalPriceOrder}
-                                return a
+                            try {                                                             
+                                const good = await Good.findById(ul._id);                                
+                                return {amount: ul.amount, ...good._doc};
                             } catch (error) {
-                                return error
+                                return error;
                             }
                         })
-                        
-                    )
+                    );
                 })
-
-            )
+            );
         }
-        const nn = async () => { const sss = await lll.map(el => ({content: el, totalPriceOrder: 678, time: 99889 }))
-    return sss}
-        // console.log(lll);
-const hhh = await nn()
-        res.status(200).send(hhh);
-        
+        const getOrderListUser = async () => {
+            const orderListUser = goodsList.map((el, index) => ({
+                content: el,
+                totalPriceOrder: list[index].totalPriceOrder,
+                time: list[index].createdAt,
+                _id: list[index]._id
+            }));
+            return orderListUser;
+        };
+        const orderListUser = await getOrderListUser();        
+       
+        res.status(200).send(orderListUser);
     } catch (error) {
         console.log(error);
         res.status(500).json({

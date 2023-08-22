@@ -29,7 +29,11 @@ const schema = new Schema(
         },
         category: {
             type: String,
+        },
+        access: {
+            type: String,
         }
+
     },
     { timestamps: true }
 );

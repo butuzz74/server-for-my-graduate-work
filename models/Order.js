@@ -20,8 +20,7 @@ const OrdersSchema = new Schema(
         totalPriceOrder: {
             type: String
         }
-    },
-
+    },    
     { timestamps: true }
 );
 
