@@ -3,16 +3,32 @@ const router = express.Router({ mergeParams: true });
 const Good = require("../models/Good");
 const auth = require("../middleware/auth.middleware");
 
-router.get("/", async (req, res) => {
+router.get("/:path?", async (req, res) => {
+    const { path } = req.params;
     try {
-        const list = await Good.find();
-        res.status(200).json(list);
+        if (!path) {
+            const list = await Good.find({ access: "Доступен" });
+            res.status(200).json(list);
+        } else {
+            const list = await Good.find();
+            res.status(200).json(list);
+        }
     } catch (error) {
         res.status(500).send({
             message: "На сервере произошла ошибка. Попробуйте позже!"
         });
     }
 });
+// router.get("/:path?", async (req, res) => {
+//     try {
+//         const list = await Good.find();
+//         res.status(200).json(list);
+//     } catch (error) {
+//         res.status(500).send({
+//             message: "На сервере произошла ошибка. Попробуйте позже!"
+//         });
+//     }
+// });
 router.post("/", auth, async (req, res) => {
     try {
         const newGood = await Good.create({ ...req.body });
@@ -44,7 +60,7 @@ router.patch("/:userId", auth, async (req, res) => {
 router.delete("/:userId", auth, async (req, res) => {
     try {
         const { userId } = req.params;
-        await Good.deleteOne({_id: userId})        
+        await Good.deleteOne({ _id: userId });
         res.send(null);
     } catch (e) {
         res.status(500).json({
