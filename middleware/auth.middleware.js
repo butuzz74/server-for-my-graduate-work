@@ -1,6 +1,6 @@
 const tokenService = require("../services/token.service");
 
-module.require = (req, res, next) => {
+module.exports = (req, res, next) => {
     if ((req.method = "OPTIONS")) {
         return next();
     }

@@ -1,18 +1,18 @@
-const projectors = require("../mock/projectors.json");
-const Projector = require("../models/Projector");
-const orders = require("../mock/order.json");
-const Order = require("../models/Order");
+const goods = require("../mock/goods.json");
+const Good = require("../models/Good");
+// const orders = require("../mock/order.json");
+// const Order = require("../models/Order");
 
 module.exports = async () => {
-    const projectorsList = await Projector.find();
-    if (projectorsList.length !== projectors.length) {
-        await createInitialEntity(Projector, projectors);
+    const goodsList = await Good.find();
+    if (goodsList.length !== goods.length) {
+        await createInitialEntity(Good, goods);
     }
 
-    const orderList = await Order.find();
-    if (orderList.length !== orders.length) {
-        await createInitialEntity(Order, orders);
-    }
+    // const orderList = await Order.find();
+    // if (orderList.length !== orders.length) {
+    //     await createInitialEntity(Order, orders);
+    // }
 };
 
 async function createInitialEntity(Model, data) {

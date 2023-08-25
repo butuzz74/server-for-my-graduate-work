@@ -26,9 +26,16 @@ const schema = new Schema(
         },
         brightness: {
             type: String,  
+        },
+        category: {
+            type: String,
+        },
+        access: {
+            type: String,
         }
+
     },
     { timestamps: true }
 );
 
-module.exports = model("Projector", schema);
+module.exports = model("Good", schema);

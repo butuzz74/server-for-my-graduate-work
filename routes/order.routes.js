@@ -1,6 +1,7 @@
 const express = require("express");
 const router = express.Router({ mergeParams: true });
 const Order = require("../models/Order");
+const Good = require("../models/Good");
 const auth = require("../middleware/auth.middleware");
 
 router.post("/", auth, async (req, res) => {
@@ -16,11 +17,42 @@ router.post("/", auth, async (req, res) => {
         });
     }
 });
-router.get("/", auth, async (req, res) => {
+router.get("/:userId", async (req, res) => {
     try {
-        const list = await Order.find({ userId: req.body.userId });
-        res.status(200).send(list);
+        const { userId } = req.params;        
+        const list = await Order.find({ userId: userId });                
+        const goodsList = await getGoodForOrderList(list);         
+
+        async function getGoodForOrderList(arr) {
+            return Promise.all(
+                arr.map(async (el) => {
+                    return Promise.all(
+                        el.content.map(async (ul) => {
+                            try {                                                             
+                                const good = await Good.findById(ul._id);                                
+                                return {amount: ul.amount, ...good._doc};
+                            } catch (error) {
+                                return error;
+                            }
+                        })
+                    );
+                })
+            );
+        }
+        const getOrderListUser = async () => {
+            const orderListUser = goodsList.map((el, index) => ({
+                content: el,
+                totalPriceOrder: list[index].totalPriceOrder,
+                time: list[index].createdAt,
+                _id: list[index]._id
+            }));
+            return orderListUser;
+        };
+        const orderListUser = await getOrderListUser();        
+       
+        res.status(200).send(orderListUser);
     } catch (error) {
+        console.log(error);
         res.status(500).json({
             message: "На сервере произошла ошибка. Попробуйте позже!"
         });
