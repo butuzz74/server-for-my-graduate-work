@@ -9,8 +9,8 @@ router.post("/token", async (req, res) => {
     try {
         const { refresh_token: refreshToken } = req.body;
         const data = tokenService.validateRefresh(refreshToken);
-        const dbToken = tokenService.findToken(refreshToken);
-        if (!data || !dbToken || data._id !== dbToken.user?.toString()) {
+        const dbToken = await tokenService.findToken(refreshToken);
+        if (!data || !dbToken || data._id !== dbToken?.user?.toString()) {
             return res.status(401).json({
                 message: "Unauthorised"
             });
@@ -41,8 +41,8 @@ router.post("/signIn", [
                     }
                 });
             }
-            const { email, password } = req.body;            
-            const existingUser = await User.findOne({ email });            
+            const { email, password } = req.body;
+            const existingUser = await User.findOne({ email });
             if (!existingUser) {
                 return res.status(400).send({
                     error: {

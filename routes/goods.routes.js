@@ -4,25 +4,38 @@ const Good = require("../models/Good");
 const auth = require("../middleware/auth.middleware");
 
 router.get("/:path?", async (req, res) => {
-    const { path } = req.params;
+    const { path } = req.params;    
     try {
         if (!path) {
             const list = await Good.find({ access: "Доступен" });
-            res.status(200).json(list);
-        } else {
+            res.status(200).send(list);
+        } else if (path === "cardaddgood") {
             const list = await Good.find();
-            res.status(200).json(list);
+            res.status(200).send(list);
+        } else {
+            const good = await Good.findOne({ _id: path }); 
+            if(!good){
+                return res.status(400).send({
+                    error: {
+                        message: "GOOD_NOT_FOUND",
+                        code: 400
+                    }
+                });
+            }           
+            res.status(200).send(good);
         }
-    } catch (error) {
+    } catch (error) {        
         res.status(500).send({
             message: "На сервере произошла ошибка. Попробуйте позже!"
         });
     }
 });
-// router.get("/:path?", async (req, res) => {
+// router.get("/:userId", async (req, res) => {
+//     const { userId } = req.params;
+//     console.log(userId)
 //     try {
-//         const list = await Good.find();
-//         res.status(200).json(list);
+//         const good = await Good.find({ _id: userId });
+//         res.status(200).json(good);
 //     } catch (error) {
 //         res.status(500).send({
 //             message: "На сервере произошла ошибка. Попробуйте позже!"
